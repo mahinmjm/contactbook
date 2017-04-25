@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context="com.mahinjm.contactbook.MyProfile">
+
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:gravity="center"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appbar"
+            android:gravity="start"
+            android:padding="50dp"
+            android:layout_alignParentBottom="true">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Wallpaper"
+            android:id="@+id/checkBox"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write External Storage"
+            android:id="@+id/checkBox2"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call Phone"
+            android:id="@+id/checkBox3"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send SMS"
+            android:id="@+id/checkBox4"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read Contacts"
+            android:id="@+id/checkBox5"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="start" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Access File Location"
+            android:id="@+id/checkBox6"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="start" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/backButton"
+            android:layout_gravity="center"
+            android:background="@color/dialog_ok_bgcolor"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

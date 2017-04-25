@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_0377d78ddbcb2bacf055308090214f62ea160da0.jar" />
+    </item>
+    <item
+        jar="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_c508b2915edf76fa2f4bafc026d42f310d2d5528.jar" />
+    </item>
+    <item
+        jar="G:\Android-SDK\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_1cf55ec84b06e3c2bc9f13aa23655cdc074e3960.jar" />
+    </item>
+    <item
+        jar="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_2dd495f194d38f772a74f9bac74aae1e6d52687f.jar" />
+    </item>
+    <item
+        jar="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_03e4b6ca2092df2f33202e5d07a1ae4f4e111819.jar" />
+    </item>
+    <item
+        jar="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="G:\Dropbox\Google Drive\Android_Apps\ContactBook\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_1c740d87492d907b02db2822b566794a57c5b4c1.jar" />
+    </item>
+
+</items>

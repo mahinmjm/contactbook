@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context="com.mahinjm.contactbook.NewContact">
+
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="@dimen/activity_vertical_margin"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Name"
+            android:id="@+id/textViewName"
+            android:layout_gravity="start" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/editTextName"
+            android:layout_gravity="start" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Phone No"
+            android:id="@+id/textViewPhoneNo"
+            android:layout_gravity="start" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:phoneNumber="true"
+            android:id="@+id/editTextPhoneNo"
+            android:layout_gravity="start" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveContact"
+            android:text="@string/save_contact"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:background="@color/bgColor"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_profile"
+            android:text="@string/my_profile"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:background="@color/bgColor" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
